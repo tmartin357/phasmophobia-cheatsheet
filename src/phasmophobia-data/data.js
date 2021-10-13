@@ -9,44 +9,42 @@ var data = {
 		"D.O.T.S. Projector"
 	],
 	"secondaryevidence": [
-		"objects moved at great speeds",
+		"hunts only below 40% sanity if the light is on in the ghost room, otherwise it can hunt below 60%",
+		"hunts above 50% sanity",
+		"hunts above 60% sanity",
+		"hunts above 70% sanity",
+		"hunts above 80% sanity",
+		"throw objects further away",
 		"more active when people are nearby",
-		"smudge stick stops attacks for a long time",
-		"flying, no footprints",
-		"toxic reaction to salt",
-		"travelling through walls",
-		"looking at the ghost drops sanity considerably",
-		"taking a photo makes the ghost temporarily disappear",
-		"summoned by a Ouija Board",
-		"possesses the living",
-		"throws multiple objects at once",
-		"targets and hunts one person at a time",
-		"scared off easily by the Crucifix",
-		"territorial ghost that attacks when threatened",
-		"travels fast when victim is far away",
-		"turning off the locations power source slows down ghost movement",
-		"most powerful in the dark",
-		"increased chance of an attack in the dark",
-		"lower chance of an attack when lights are on",
-		"travels at significantly high speeds when hunting",
-		"hiding slows down the ghost significantly",
-		"shy ghost with no activity/hunting when multiple people are nearby",
-		"attacks often and without reason",
+		"smudge stick stops attacks for 180 seconds (instead of 90 seconds)",
+		"no footprints after walking on salt (need to hear footsteps)",
+		"more active after stepping into the salt",
+		"his special ability allows him to appear near player far away from ghost room which creates EMF reading. Can also start hunting from that spot but it is very rare",
+		"looking at the ghost in range of 10 meters drops sanity considerably (0.4% per second instead of 0.2%)",
+		"taking a photo makes the ghost disappear. You cannot see the ghost on the photo even though it is qualified as a ghost photo",
+		"blinks less frequently at the hunt (every 1-2 seconds instead of 0.3-1 seconds)",
+		"throws multiple objects at once which decreases sanity of all players that is nearby (2% multiplied by amount of objects threw)",
+		"targets and hunts one person at a time. If the target is outside the building during hunt, it targets the players as normal ghost",
+		"scared off easily by the Crucifix. Crucifix has bigger range (6 meters instead of 3)",
+		"walks 2 times faster than a player if breaker is on and ghost is 3 meters away from targeted player",
+		"his special power ability instantly 25% sanity within 3 meters",
+		"increased chance of an attack if the lights in the ghost room are off",
+		"lower chance of an attack when lights in the ghost room are on",
+		"travels 2 times faster than a player at hunts when has player in sight",
+		"travels 2 times slower than a player at hunts when has no player in sight",
+		"shy ghost with no activity/hunting when multiple people are in the ghost room",
+		"attacks often",
 		"sanity is not lowered when asking successful Ouija Board questions",
-		"reduces sanity more quickly",
-		"smudging the room will stop it from wandering around for a long time",
-		"attracted to human voices",
 		"haunts family homes",
-		"talking near ghost increases chance of attack",
-		"while hunting only hears voices closeby",
-		"rare ghost, found in hot climates",
-		"attack often during cold weather",
-		"moves faster at lower temperatures",
-		"moves slower in warm areas",
 		"Only visibly through the Video Camera",
 		"Rarely seen far away from their place of death",
 		"Makes paranormal sounds",
-		"Quieter when hunting"
+		"Quieter when hunting",
+		"smudging the room will stop it from wandering around for 90 seconds",
+		"talking in 2 meter range from ghost increases chance of attack",
+		"while hunting only hears voices from 2 meters",
+		"attack more often during cold temperatures",
+		"moves slightly faster than a player at lower temperatures"
 	],
 	"ghosts": [
 		{
@@ -59,7 +57,7 @@ var data = {
 				"Ghost Writing",
 				"Spirit Box",
 				
-				"smudge stick stops attacks for a long time"
+				"smudge stick stops attacks for 180 seconds (instead of 90 seconds)"
 			]
 		},
 		{
@@ -72,9 +70,9 @@ var data = {
 				"Spirit Box",
 				"D.O.T.S. Projector",
 
-				"flying, no footprints",
-				"toxic reaction to salt",
-				"travelling through walls"
+				"no footprints after walking on salt (need to hear footsteps)",
+				"more active after stepping into the salt",
+				"his special ability allows him to appear near player far away from ghost room which creates EMF reading. Can also start hunting from that spot but it is very rare"
 			]
 		},
 		{
@@ -87,10 +85,10 @@ var data = {
 				"Fingerprints",
 				"D.O.T.S. Projector",
 
-				"looking at the ghost drops sanity considerably",
-				"taking a photo makes the ghost temporarily disappear",
-				"summoned by a Ouija Board",
-				"possesses the living"
+				"his special ability allows him to appear near player far away from ghost room which creates EMF reading. Can also start hunting from that spot but it is very rare",
+				"looking at the ghost in range of 10 meters drops sanity considerably (0.4% per second instead of 0.2%)",
+				"taking a photo makes the ghost disappear. You cannot see the ghost on the photo even though it is qualified as a ghost photo",
+				"blinks less frequently at the hunt (every 1-2 seconds instead of 0.3-1 seconds)"
 			]
 		},
 		{
@@ -103,7 +101,8 @@ var data = {
 				"Ghost Writing",
 				"Fingerprints",
 
-				"throws multiple objects at once"
+				"throws multiple objects at once which decreases sanity of all players that is nearby (2% multiplied by amount of objects threw)",
+				"throw objects further away"
 			]
 		},
 		{
@@ -116,8 +115,12 @@ var data = {
 				"Fingerprints",
 				"D.O.T.S. Projector",
 
-				"targets and hunts one person at a time",
-				"scared off easily by the Crucifix"
+				"hunts above 50% sanity",
+				"hunts above 60% sanity",
+				"hunts above 70% sanity",
+				"hunts above 80% sanity",
+				"targets and hunts one person at a time. If the target is outside the building during hunt, it targets the players as normal ghost",
+				"scared off easily by the Crucifix. Crucifix has bigger range (6 meters instead of 3)"
 			]
 		},
 		{
@@ -130,9 +133,8 @@ var data = {
 				"EMF Level 5",
 				"Fingerprints",
 				
-				"territorial ghost that attacks when threatened",
-				"travels fast when victim is far away",
-				"turning off the locations power source slows down ghost movement"
+				"walks 2 times faster than a player if breaker is on and ghost is 3 meters away from targeted player",
+				"his special ability drains instantly 25% sanity within 3 meters"
 			]
 		},
 		{
@@ -145,9 +147,10 @@ var data = {
 				"Spirit Box",
 				"Ghost Writing",
 
-				"most powerful in the dark",
-				"increased chance of an attack in the dark",
-				"lower chance of an attack when lights are on"
+				"hunts above 50% sanity",
+				"hunts only below 40% sanity if the light is on in the ghost room, otherwise it can hunt below 60%",
+				"increased chance of an attack if the lights in the ghost room are off",
+				"lower chance of an attack when lights in the ghost room are on"
 			]
 		},
 		{
@@ -160,8 +163,8 @@ var data = {
 				"Ghost Orbs",
 				"Ghost Writing",
 				
-				"travels at significantly high speeds when hunting",
-				"hiding slows down the ghost significantly"
+				"travels 2 times faster than a player at hunts when has player in sight",
+				"travels 2 times slower than a player at hunts when has no player in sight"
 			]
 		},
 		{
@@ -174,7 +177,7 @@ var data = {
 				"EMF Level 5",
 				"Ghost Writing",
 
-				"shy ghost with no activity/hunting when multiple people are nearby"
+				"shy ghost with no activity/hunting when multiple people are in the ghost room"
 			]
 		},
 		{
@@ -187,7 +190,9 @@ var data = {
 				"Fingerprints",
 				"Ghost Writing",
 
-				"attacks often and without reason",
+				"hunts above 50% sanity",
+				"hunts above 60% sanity",
+				"attacks often",
 				"sanity is not lowered when asking successful Ouija Board questions"
 			]
 		},
@@ -201,8 +206,8 @@ var data = {
 				"Ghost Orbs",
 				"D.O.T.S. Projector",
 
-				"reduces sanity more quickly",
-				"smudging the room will stop it from wandering around for a long time"
+				"looking at the ghost in range of 10 meters drops sanity considerably (0.4% per second instead of 0.2%)",
+				"smudging the room will stop it from wandering around for 90 seconds"
 			]
 		},
 		{
@@ -215,7 +220,7 @@ var data = {
 				"EMF Level 5",
 				"D.O.T.S. Projector",
 
-				"objects moved at great speeds",
+				"throw objects further away",
 				"more active when people are nearby"
 			]
 		},
@@ -229,10 +234,12 @@ var data = {
 				"Spirit Box",
 				"D.O.T.S. Projector",
 
-				"attracted to human voices",
+				"hunts above 50% sanity",
+				"hunts above 60% sanity",
+				"hunts above 70% sanity",
 				"haunts family homes",
-				"talking near ghost increases chance of attack",
-				"while hunting only hears voices closeby"
+				"talking in 2 meter range from ghost increases chance of attack",
+				"while hunting only hears voices from 2 meters"
 			]
 		},
 		{
@@ -245,10 +252,8 @@ var data = {
 				"Ghost Orbs",
 				"Fingerprints",
 
-				"rare ghost, found in hot climates",
-				"attack often during cold weather",
-				"moves faster at lower temperatures",
-				"moves slower in warm areas"
+				"attack more often during cold temperatures",
+				"moves slightly faster than a player at lower temperatures"
 			]
 		},
 		{
