@@ -9,8 +9,7 @@ export default class ContactPage extends Component {
 				<div className="fadeIn" style={{margin: "5px", padding: "30px"}}>
 					<h2 style={{ textAlign: "center"}}>Contact</h2>
 					<br/>
-					<p>Hi, I am unobtanium. I created this project in my freetime. You can find the project repository with the source code on my GitHub page <a href="https://github.com/un0btanium/phasmophobia-cheatsheet">here</a>.</p>
-					<p>If you want to send me some feedback, feel free to write me an <a href="mailto:unobtaniumlol@gmail.de?subject=Phasmophobia-Cheatsheet%20Feedback">eMail</a>.</p>
+					<p>This is a fork of un0btanium's Phasmophobia CheatSheet, with some adjustments I made for my playstyle. You can find the original project <a href="https://github.com/un0btanium/phasmophobia-cheatsheet">here</a>.</p>
 				</div>
 			</div>
 		</div>
