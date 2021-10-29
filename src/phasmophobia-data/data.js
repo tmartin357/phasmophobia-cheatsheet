@@ -1,4 +1,5 @@
 var data = {
+	"patchVersion": "October 2021",
 	"primaryevidence": [
 		"EMF Level 5",
 		"Fingerprints",
@@ -44,7 +45,14 @@ var data = {
 		"talking in 2 meter range from ghost increases chance of attack",
 		"while hunting only hears voices from 2 meters",
 		"attack more often during cold temperatures",
-		"moves slightly faster than a player at lower temperatures"
+		"moves slightly faster than a player at lower temperatures",
+		"Fears any form of fire",
+		"Attacks when flames are extinguished",
+		"Attacks alternate",
+		"Often disrupts electronic equipment",
+		"Moves faster when nearby electrical devices",
+		"Rarely leaves a trace when interacting with the environment",
+		"Ghost shapeshifts occasionally, leaving behind unique evidence"
 	],
 	"ghosts": [
 		{
@@ -282,6 +290,61 @@ var data = {
 
 				"Makes paranormal sounds",
 				"Quieter when hunting"
+			]
+		},
+		{
+			"name": "Onryo",
+			"description":"",
+			"uniquestrength": "",
+			"weaknesses": "",
+			"evidence": [
+				"Spirit Box",
+				"Ghost Orbs",
+				"Freezing Temperature",
+
+				"Fears any form of fire",
+				"Attacks when flames are extinguished"
+			]
+		},
+		{
+			"name": "The Twins",
+			"description":"",
+			"uniquestrength": "",
+			"weaknesses": "",
+			"evidence": [
+				"EMF Level 5",
+				"Spirit Box",
+				"Freezing Temperature",
+
+				"Attacks alternate"
+			]
+		},
+		{
+			"name": "Raiju",
+			"description":"",
+			"uniquestrength": "",
+			"weaknesses": "",
+			"evidence": [
+				"EMF Level 5",
+				"Ghost Orbs",
+				"D.O.T.S. Projector",
+
+				"Often disrupts electronic equipment",
+				"Moves faster when nearby electrical devices"
+			]
+		},
+		{
+			"name": "Obake",
+			"description":"",
+			"uniquestrength": "",
+			"weaknesses": "",
+			"evidence": [
+				"EMF Level 5",
+				"Fingerprints",
+				"Ghost Orbs",
+
+				"Rarely leaves a trace when interacting with the environment",
+				"Ghost shapeshifts occasionally, leaving behind unique evidence"
 			]
 		},
 	],
