@@ -48,11 +48,11 @@ var data = {
 		"moves slightly faster than a player at lower temperatures",
 		"Fears any form of fire",
 		"Attacks when flames are extinguished",
-		"Attacks alternate",
-		"Often disrupts electronic equipment",
+		"Attacks from different locations",
+		"Simultaneous events far from each other",
 		"Moves faster when nearby electrical devices",
 		"Rarely leaves a trace when interacting with the environment",
-		"Ghost shapeshifts occasionally, leaving behind unique evidence"
+		"Sometimes leaves a six fingered handprint"
 	],
 	"ghosts": [
 		{
@@ -293,7 +293,7 @@ var data = {
 			]
 		},
 		{
-			"name": "Onryo",
+			"name": "Onryo*",
 			"description":"",
 			"uniquestrength": "",
 			"weaknesses": "",
@@ -302,12 +302,17 @@ var data = {
 				"Ghost Orbs",
 				"Freezing Temperature",
 
+				"hunts above 50% sanity",
+				"hunts above 60% sanity",
+				"hunts above 70% sanity",
+				"hunts above 80% sanity",
+
 				"Fears any form of fire",
 				"Attacks when flames are extinguished"
 			]
 		},
 		{
-			"name": "The Twins",
+			"name": "The Twins*",
 			"description":"",
 			"uniquestrength": "",
 			"weaknesses": "",
@@ -316,11 +321,17 @@ var data = {
 				"Spirit Box",
 				"Freezing Temperature",
 
-				"Attacks alternate"
+				"hunts above 50% sanity",
+				"hunts above 60% sanity",
+				"hunts above 70% sanity",
+				"hunts above 80% sanity",
+
+				"Attacks from different locations",
+				"Simultaneous events far from each other"
 			]
 		},
 		{
-			"name": "Raiju",
+			"name": "Raiju*",
 			"description":"",
 			"uniquestrength": "",
 			"weaknesses": "",
@@ -329,12 +340,16 @@ var data = {
 				"Ghost Orbs",
 				"D.O.T.S. Projector",
 
-				"Often disrupts electronic equipment",
+				"hunts above 50% sanity",
+				"hunts above 60% sanity",
+				"hunts above 70% sanity",
+				"hunts above 80% sanity",
+
 				"Moves faster when nearby electrical devices"
 			]
 		},
 		{
-			"name": "Obake",
+			"name": "Obake*",
 			"description":"",
 			"uniquestrength": "",
 			"weaknesses": "",
@@ -343,8 +358,13 @@ var data = {
 				"Fingerprints",
 				"Ghost Orbs",
 
+				"hunts above 50% sanity",
+				"hunts above 60% sanity",
+				"hunts above 70% sanity",
+				"hunts above 80% sanity",
+
 				"Rarely leaves a trace when interacting with the environment",
-				"Ghost shapeshifts occasionally, leaving behind unique evidence"
+				"Sometimes leaves a six fingered handprint"
 			]
 		},
 	],

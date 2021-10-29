@@ -119,7 +119,7 @@ export default class MainGridPage extends Component {
 				<Container style={{ padding:"0", margin:"20px", marginTop: "0px", maxWidth:"100000px"}}>
 					<Row>
 						<Col style={{ textAlign:"center" }}>
-							<b>Leftclick: Select/Unselect Evidence.<br/>Rightclick: Ignore/Unignore Evidence.</b>
+							<b>Leftclick: Select/Unselect Evidence.<br/>Rightclick: Ignore/Unignore Evidence.<br/>* Denotes sanity threshhold unknown.</b>
 						</Col>
 					</Row>
 					<Row>
