@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/phasmophobia-cheatsheet/static/css/main.1c1df740.chunk.css",
-    "main.js": "/phasmophobia-cheatsheet/static/js/main.27f88d2d.chunk.js",
-    "main.js.map": "/phasmophobia-cheatsheet/static/js/main.27f88d2d.chunk.js.map",
+    "main.css": "/phasmophobia-cheatsheet/static/css/main.db781579.chunk.css",
+    "main.js": "/phasmophobia-cheatsheet/static/js/main.8559a56d.chunk.js",
+    "main.js.map": "/phasmophobia-cheatsheet/static/js/main.8559a56d.chunk.js.map",
     "runtime-main.js": "/phasmophobia-cheatsheet/static/js/runtime-main.35471a59.js",
     "runtime-main.js.map": "/phasmophobia-cheatsheet/static/js/runtime-main.35471a59.js.map",
-    "static/css/2.1cace5d8.chunk.css": "/phasmophobia-cheatsheet/static/css/2.1cace5d8.chunk.css",
-    "static/js/2.da867f39.chunk.js": "/phasmophobia-cheatsheet/static/js/2.da867f39.chunk.js",
-    "static/js/2.da867f39.chunk.js.map": "/phasmophobia-cheatsheet/static/js/2.da867f39.chunk.js.map",
+    "static/css/2.46b578d6.chunk.css": "/phasmophobia-cheatsheet/static/css/2.46b578d6.chunk.css",
+    "static/js/2.0258f6fd.chunk.js": "/phasmophobia-cheatsheet/static/js/2.0258f6fd.chunk.js",
+    "static/js/2.0258f6fd.chunk.js.map": "/phasmophobia-cheatsheet/static/js/2.0258f6fd.chunk.js.map",
     "index.html": "/phasmophobia-cheatsheet/index.html",
-    "precache-manifest.af042c2f169f17f6de902ad47f2af7ef.js": "/phasmophobia-cheatsheet/precache-manifest.af042c2f169f17f6de902ad47f2af7ef.js",
+    "precache-manifest.9f3c665c57f5fd25261c570fb0af5f81.js": "/phasmophobia-cheatsheet/precache-manifest.9f3c665c57f5fd25261c570fb0af5f81.js",
     "service-worker.js": "/phasmophobia-cheatsheet/service-worker.js",
-    "static/css/2.1cace5d8.chunk.css.map": "/phasmophobia-cheatsheet/static/css/2.1cace5d8.chunk.css.map",
-    "static/css/main.1c1df740.chunk.css.map": "/phasmophobia-cheatsheet/static/css/main.1c1df740.chunk.css.map",
-    "static/js/2.da867f39.chunk.js.LICENSE.txt": "/phasmophobia-cheatsheet/static/js/2.da867f39.chunk.js.LICENSE.txt",
+    "static/css/2.46b578d6.chunk.css.map": "/phasmophobia-cheatsheet/static/css/2.46b578d6.chunk.css.map",
+    "static/css/main.db781579.chunk.css.map": "/phasmophobia-cheatsheet/static/css/main.db781579.chunk.css.map",
+    "static/js/2.0258f6fd.chunk.js.LICENSE.txt": "/phasmophobia-cheatsheet/static/js/2.0258f6fd.chunk.js.LICENSE.txt",
     "static/media/ghost.svg": "/phasmophobia-cheatsheet/static/media/ghost.c97139a7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.35471a59.js",
-    "static/css/2.1cace5d8.chunk.css",
-    "static/js/2.da867f39.chunk.js",
-    "static/css/main.1c1df740.chunk.css",
-    "static/js/main.27f88d2d.chunk.js"
+    "static/css/2.46b578d6.chunk.css",
+    "static/js/2.0258f6fd.chunk.js",
+    "static/css/main.db781579.chunk.css",
+    "static/js/main.8559a56d.chunk.js"
   ]
 }
